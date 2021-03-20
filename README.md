@@ -1,5 +1,5 @@
 # 2-Professional-Portfolio
-This assignment was assigned by the U.C. Berkelely Extension Full-time Full Stack Flex Boot Camp.
+This assignment was assigned by the U.C. Berkeley Extension Full-time Full Stack Flex Boot Camp.
 This is assignment 2 for the program. In this assignment I created a mock portfolio page for myself to showcase the work I have not done yet.
 
 I implement programming concepts such as:
