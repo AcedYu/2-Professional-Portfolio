@@ -16,7 +16,7 @@ Due: Tuesday, March 23, 2021 11:59 PM
 
 ## Deployed Link
 
-* [See Live Site](https://acedyu.github.io/twiddler-jquery/)
+* [See Live Site](https://acedyu.github.io/2-Professional-Portfolio/)
 
 ## Authors
 AcedYu
