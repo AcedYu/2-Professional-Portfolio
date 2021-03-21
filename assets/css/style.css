@@ -1,0 +1,171 @@
+/* :root CSS, defining variables */
+:root {
+  display: inline;
+  --dark: #09131b;
+  --dark2: #182c3b;
+  --light: rgb(224, 224, 224);
+  --font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* General full page CSS */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: var(--font);
+  background-color: var(--dark2);
+  color: var(--light);
+}
+
+/* header CSS */
+header {
+  background-color: var(--dark);
+  padding: 20px;
+}
+
+header h1 {
+  margin: auto;
+  display: inline-block;
+  font-size: 50px;
+}
+
+/* nav bar CSS */
+nav {
+  background-color: var(--dark);
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a {
+  color: var(--light);
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+}
+
+/* banner css */
+.banner {
+  background: url('../img/banner.png');
+  height: 369px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.banner h2 {
+  margin-left: 3%;
+  font-size: 50px;
+  display: flex;
+}
+
+.profile {
+  margin: 10px;
+  flex: 0 0 auto;
+}
+
+/* Introduction CSS */
+article h2 {
+  text-align: center;
+  font-size: 50px;
+}
+
+article p {
+  width: 50%;
+  margin:auto;
+  font-size: 25px;
+}
+
+/* line break CSS */
+hr {
+  width: 95%;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  border: none;
+  border-top: 8px ridge var(--light);
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+hr:after {
+  background: var(--dark2);
+  font-family: consolas;
+  content: '< / >';
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
+/* Projects CSS */
+#projects {
+  display:flex;
+  flex-wrap: wrap;
+  width: 85%;
+  margin: auto;
+  justify-content: center;
+}
+
+#projects h2 {
+  font-size: 50px;
+  margin: 0 auto;
+}
+
+figure {
+  position: relative;
+  overflow: hidden;
+  flex-wrap: wrap;
+  display: flex;
+  width: 700px;
+  height: 500px;
+  min-width: 600px;
+  border: ridge white 10px;
+}
+
+.head-pic {
+  flex-wrap: wrap;
+  display: flex;
+  width: 1500px;
+  min-width: 600px;
+}
+
+/* figure a img {
+  overflow: hidden;
+} */
+
+figcaption {
+  height: auto;
+  width: auto;
+  position: absolute;
+  bottom: -8px;
+  right: 0px;
+}
+/* footer CSS */
+footer {
+  background-color: var(--dark);
+  display: inline-block;
+  width: 100%;
+}
+
+footer h2 {
+  margin: auto;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
