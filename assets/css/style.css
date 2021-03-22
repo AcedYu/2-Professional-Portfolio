@@ -135,6 +135,11 @@ figure {
   height: 500px;
   min-width: 600px;
   border: var(--border);
+  background-color: yellow;
+}
+
+figure img:hover {
+  opacity: 0.8;
 }
 
 .head-pic {
