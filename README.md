@@ -7,6 +7,8 @@ I implement programming concepts such as:
 - media queries
 - CSS variables
 
+![Image](./assets/img/demopic.png)
+
 Due: Tuesday, March 23, 2021 11:59 PM
 
 ## Built With
